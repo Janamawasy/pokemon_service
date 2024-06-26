@@ -26,6 +26,9 @@ For more details on the entire microservice architecture, refer to :
 - PyMySQL
 - Requests
 
+## Endpoints
+![Description of the image](/poke_endpoints.png)
+
 
 ## env Setup
 
