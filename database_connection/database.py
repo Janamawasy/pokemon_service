@@ -15,10 +15,10 @@ docker_host = os.getenv('DATABASE_DOCKER_HOST')
 
 
 # local:
-# database_URL = f'mysql+pymysql://{username}:{password}@{local_host}:{port}/{database_name}'
+database_URL = f'mysql+pymysql://{username}:{password}@{local_host}:{port}/{database_name}'
 
 # for docker: mymysql container as host
-database_URL = f'mysql+pymysql://{username}:@{docker_host}:{port}/{database_name}'
+# database_URL = f'mysql+pymysql://{username}:@{docker_host}:{port}/{database_name}'
 
 engine = create_engine(database_URL)
 
